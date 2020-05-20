@@ -18,13 +18,13 @@ using BeerNWings;
 
 #line default
 #line hidden
-#line 2 "C:\Users\Andrew\Documents\BeersNWings\BeerNWings\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\Andrew\Documents\BeersNWings\BeerNWings\Views\_ViewImports.cshtml"
 using BeerNWings.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e57a9cdbfb174b0e3def22c244c908ddaaf89fa7", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3ccb083eb5cf66917d44a39535b5707908f39c45", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"55d248f7bae1c8553262457600dffe7aa5a78375", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

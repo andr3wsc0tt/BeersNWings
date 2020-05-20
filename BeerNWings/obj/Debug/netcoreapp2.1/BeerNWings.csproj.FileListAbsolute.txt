@@ -34,3 +34,4 @@ C:\Users\Andrew\Documents\BeersNWings\BeerNWings\obj\Debug\netcoreapp2.1\BeerNWi
 C:\Users\Andrew\Documents\BeersNWings\BeerNWings\obj\Debug\netcoreapp2.1\BeerNWings.dll
 C:\Users\Andrew\Documents\BeersNWings\BeerNWings\obj\Debug\netcoreapp2.1\BeerNWings.pdb
 C:\Users\Andrew\Documents\BeersNWings\BeerNWings\obj\Debug\netcoreapp2.1\BeerNWings.csproj.CopyComplete
+C:\Users\Andrew\Documents\BeersNWings\BeerNWings\obj\Debug\netcoreapp2.1\Razor\Views\Courses\Index.g.cshtml.cs
