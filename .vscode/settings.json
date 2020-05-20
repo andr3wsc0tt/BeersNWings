@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3548272b-f9b6-4255-993c-84e5109c89d5/resourceGroups/BeerNWings/providers/Microsoft.Web/sites/BeerNWings",
+    "appService.deploySubpath": "BeerNWings\\publish"
+}
