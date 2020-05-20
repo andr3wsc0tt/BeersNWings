@@ -1,17 +1,51 @@
-﻿@{
-    ViewData["Title"] = "Contact";
-}
+﻿@{ ViewData["Title"] = "Contact"; }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+  One Microsoft Way<br />
+  Redmond, WA 98052-6399<br />
+  <abbr title="Phone">P:</abbr>
+  425.555.0100
 </address>
 
 <address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+  <strong>Support ZZZZZZZZZZZZZZ:</strong>
+  <a href="mailto:Support@example.com">Support@example.com</a><br />
+  <strong>Marketing:</strong>
+  <a href="mailto:Marketing@example.com">Marketing@example.com</a>
 </address>
+
+<h2>Courses and Modules</h2>
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          Course Name
+        </th>
+        <th>
+          Modules
+        </th>
+        <th>
+          Sequence
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach(var courseAndModule in Model.CoursesAndModules) {
+      <tr>
+        <td>
+          @Html.DisplayFor(courseName => courseAndModule.CourseName)
+        </td>
+        <td>
+          @Html.DisplayFor(moduleTitle => courseAndModule.ModuleTitle)
+        </td>
+        <td>
+          @Html.DisplayFor(sequence => courseAndModule.Sequence)
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+</div>
